@@ -2,22 +2,36 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 th {
-  background-color: black;
+  height: 4rem;
   color: white;
+  padding: 5px;
+  text-align: start;
+  background-color: black;
+  border-radius: 5px 5px 0px 0px;
 }
 
 td {
-  background-color: lightgray;
+  margin: 20px;
   padding: 5px;
+  color: #696969;
+  background-color: #EEEEEE;
+  transition: ease 0.2s;
+}
+
+td:hover {
+  transform: scale(1.02);
+  cursor: pointer;
 }
 
 table {
   width: 600px;
   height: 200px;
-  margin: 0 auto;
+  min-width: 236px;
+  border-spacing: 5px;
 }
 
 body {
@@ -30,5 +44,5 @@ body {
 
 .color-white {
   color: white;
-  background-color: gray;
+  background-color: #858495;
 }
